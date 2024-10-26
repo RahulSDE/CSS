@@ -33,7 +33,7 @@
 -  For ex.  ``<h2 style="color:gold; font=50px;"> Rahul singh </h2>.``
 - Inline css is not so good because when we write a lot of css then the html page will not look that much good. hence Internal css is used.
 ### **INTERNAL CSS**
-- `Internal css` is used withing the **head** tag of html document.
+- `Internal css` is used withing the **head** tag of html document by using `style` tag.
 
 - This way of applying css is used to syle the particular tag.
     - example:
@@ -49,7 +49,7 @@
         </style>
     </head>
 - This way of styling the html page is called internal beacuse within the same page css is being used.
-- Why `internal css` is not preferred over `external css.
+- Why `internal css` is not preferred over `external css`.
     - There is the concept called `seperation of concern` which says that in relevant file there should only be relevant code.  i.e. if there is html element in one file then that file should only contain html element to design the webpage.css code must be written in the separate file.
 ### **EXTERNAL CSS**
 - Extenal css is called external because the css is written in the other document.
