@@ -1,7 +1,7 @@
 ## **1. WHAT IS CSS**
 - `CSS` stands for **Cascading Style Sheet**.
     - css uses `cascading algorithm` to style the sheet.
-    - If we are applying styling to and element and there are more than one code pointers which are styling the html element then which styling will be given precedence is decided by `cascading algorithm`.
+    - If we are applying styling to an element and there are more than one code pointers which are styling the html element then which styling will be given precedence is decided by `cascading algorithm`.
 - `css` is used in html to style the page.
 
 - one valid css styling or instruction ends with semi-colon.
