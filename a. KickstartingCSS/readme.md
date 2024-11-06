@@ -147,7 +147,7 @@ such that elements matched by the second selector are selected if they have an a
     ```
                 
 #### **2.7.3. NEXT-SIBLING COMBINATOR / ADJACENT-SIBLING COMBINATOR:**
-- The next-sibling combinator  `+` is placed between two CSS selectors. It matches only those elements matched by the second selector that are the next sibling element of the first selector. For example, to select all <img> elements that are immediately preceded by a <p> element:
+- The next-sibling combinator  `+` is placed between two CSS selectors. It matches only those elements matched by the second selector that are the next sibling element of the first selector. For example, to select all `<img>` elements that are immediately preceded by a `<p>` element:
                     ```
                         p + img{
                         }
