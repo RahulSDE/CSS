@@ -155,11 +155,12 @@ such that elements matched by the second selector are selected if they have an a
     ```
                 
 #### **2.7.4. GENRAL SIBLINGS COMBINATOR:**
-- If you want to select siblings of an element even if they are not directly adjacent, then you can use the subsequent-sibling combinator `~` . To select all <img> elements that come anywhere after <p> elements, we'd do this:
-        ```
-            p ~ img{
-                 }
-        ```                
+- If you want to select siblings of an element even if they are not directly adjacent, then you can use the subsequent-sibling combinator `~` . To select all `<img>` elements that come anywhere after `<p>` elements, we'd do this:
+
+     ```
+        p ~ img{
+        }
+    ```                
 ### **2.8. PSEUDO CLASSES AND PSEUDO ELEMENTS:**
 - If you want to make some changes to the selected html element based on some event.
 
