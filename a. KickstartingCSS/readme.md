@@ -2,9 +2,9 @@
 - `CSS` stands for **Cascading Style Sheet**.
     - css uses `cascading algorithm` to style the sheet.
     - If we are applying styling to an element and there are more than one code pointers which are styling the html element then which styling will be given precedence is decided by `cascading algorithm`.
-- `css` is used in html to style the page.
+- `CSS` is used in html to style the page.
 
-- one valid css styling or instruction ends with semi-colon.
+- One valid css styling or instruction ends with semi-colon.
 - There are three ways by which we can apply css.
     1. Inline css.
     2. Internal css.
@@ -59,29 +59,29 @@
 ## **2. SELECTORS**
 - Selectors is a mechanism which css provide us to collectively select a bunch of html elements together and style them together.
 
-- here are different types of selectors based on which type of html elements it select.
+- Here are different types of selectors based on which type of html elements it select.
 ### **2.1 UNIVERSAL SELECTOR**
-- this selectors select everything in the html document and apply css rule to everything.
+- This selectors select everything in the html document and apply css rule to everything.
 
-- this selector select every html tag manually and apply styling to it.
-- represented by `*`.
-- ex: 
+- This selector select every html tag manually and apply styling to it.
+- Represented by `*`.
+- Ex: 
     ```
     * {
         background-color:blue;
     }
     ```
 ### **2.2 TYPE SELECTOR**
-- this selector select a particular html element and then apply styling to it.
+- This selector select a particular html element and then apply styling to it.
 
-- ex:
+- Ex:
         ```
         h2{
             background-color: blue;
         }
         ```
 ### **2.3 CLASS SELECTOR**
-- class selector says that all the element with corresponding given class attribute will be selected.
+- Class selector says that all the element with corresponding given class attribute will be selected.
 
 - **Syntax**: 
     ```
@@ -89,14 +89,14 @@
 
     }
     ```
-- for ex: 
+- For ex: 
     ``` 
     .mid-text{
         background-color: red;
     }
     ```
 ### **2.4 ID SELECTOR**
-- this selector selects the element with particular id attribute and apply styling to it.
+- This selector selects the element with particular id attribute and apply styling to it.
 
 - Syntax:
     ```              
@@ -113,12 +113,12 @@
 
 
 ### **2.5 ATTRIBUTE SELECTOR:**
--  this selector selects all the html element having the mentioned attribute and apply styling to it.
+-  This selector selects all the html element having the mentioned attribute and apply styling to it.
         
 ### **2.6 SELECTOR LIST:**
-- agar aap ek se jyada html element pe same styling apply karna chahte hai to ek saath bhi kar sake hai
+- Agar aap ek se jyada html element pe same styling apply karna chahte hai to ek saath bhi kar sake hai
 
-- for ex. agar mai div tag and h2 tag dono html element pe same styling apply karna chahta hun to mai `,` ka use karke kar sakta hun jaisa ki neeche diya gya hai.
+- For ex. agar mai div tag and h2 tag dono html element pe same styling apply karna chahta hun to mai `,` ka use karke kar sakta hun jaisa ki neeche diya gya hai.
 - ```
         div,h2{
                 font-size:larger;
@@ -129,13 +129,13 @@
 -  The descendant combinator, typically represented by a single space `" "` character, combines two selectors 
 such that elements matched by the second selector are selected if they have an ancestor (parent, parent's parent, parent's parent's parent, etc.) element matching the first selector.
 
-- for ex:
+- For ex:
         ```
             A B{
                  color: white;
                 }
         ```
-            - all the html element B which is the descendant of A will be selected and styling will be applied to it only.
+            - All the html element B which is the descendant of A will be selected and styling will be applied to it only.
 
 #### **2.7.2 CHILD COMBINATOR:**                
 - The child combinator `>` is placed between two CSS selectors. It matches only those elements matched by the second selector that are the direct children of elements matched by the first. Descendant elements further down the hierarchy don't match.
@@ -164,23 +164,23 @@ such that elements matched by the second selector are selected if they have an a
 ### **2.8. PSEUDO CLASSES AND PSEUDO ELEMENTS:**
 - If you want to make some changes to the selected html element based on some event.
 
-- for ex: if you are hovering over to an element then you want to make some changes. In this case pseudo classes and pseudo elements are used.
+- For ex: if you are hovering over to an element then you want to make some changes. In this case pseudo classes and pseudo elements are used.
 #### **2.8.1 PSEUDO CLASSES**
-- represented by : 
-- for ex:
+- Represented by : 
+- For ex:
         ```
             a :hover{
                 text-decoration:none;
                 }
         ```
-    - what this example is saying that whenever we hover over anchor tag then the underline should go away.
+    - What this example is saying that whenever we hover over anchor tag then the underline should go away.
                        hover class is not actually present in the html doc.
 
     - `:visited pseudo class`
     - `:hover pseudo class`
             
 #### **2.8.2 PSEUDO ELEMENTS:**
-- represented by ::
+- Represented by ::
 
-- pseudo elements are the html elements that are not actually present in the html doc.
+- Pseudo elements are the html elements that are not actually present in the html doc.
             
