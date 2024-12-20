@@ -33,7 +33,7 @@
 -  For ex.  ``<h2 style="color:gold; font=50px;"> Rahul singh </h2>.``
 - Inline css is not so good because when we write a lot of css then the html page will not look that much good. hence Internal css is used.
 ### **INTERNAL CSS**
-- `Internal css` is used withing the **head** tag of html document by using `style` tag.
+- `Internal css` is used within the **head** tag of html document by using `style` tag.
 
 - This way of applying css is used to syle the particular tag.
     - example:
