@@ -50,7 +50,7 @@
     </head>
 - This way of styling the html page is called internal beacuse within the same page css is being used.
 - Why `internal css` is not preferred over `external css`.
-    - There is the concept called `seperation of concern` which says that in relevant file there should only be relevant code.  i.e. if there is html element in one file then that file should only contain html element to design the webpage .css code must be written in the separate file.
+    - There is the concept called `seperation of concern` which says that in relevant file there should only be relevant code.  i.e. if there is html element in one file then that file should only contain html element to design the webpage. css code must be written in the separate file.
 ### **EXTERNAL CSS**
 - Extenal css is called external because the css is written in the other document.
 
