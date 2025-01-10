@@ -1,4 +1,4 @@
-*{
+html{
     /* every element of the html doc will be following border-box box-sizing which says that whatever width will be provided to you 
        will be distributed to the actual content + padding + border.*/
     box-sizing: border-box;
