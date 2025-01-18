@@ -13,7 +13,7 @@
 
 - we add **script tag** to the end of our body tag.
 
-## ** INTRODUCTION TO BOOTSTRAP**
+## **INTRODUCTION TO BOOTSTRAP**
 - `getbootstrap.com` : website to read documents of **bootstrap**.
 
 - `Bootstrap` is a **CSS Framework**.
